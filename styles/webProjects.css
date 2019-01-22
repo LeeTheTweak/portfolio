@@ -57,7 +57,7 @@ body {
           box-shadow: 1px 1px 10px white; }
   #siteContainer #projectsContainer {
     text-align: center;
-    width: auto; }
+    width: 100%; }
     #siteContainer #projectsContainer #projectsDiv {
       margin-top: 150px;
       opacity: 0.4; }
