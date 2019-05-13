@@ -6,77 +6,82 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0;
-    background: #201f2c;
+    background: white;
     color: white;
     font-family: sans-serif;
 }
-#siteContainer {
-    // The Header
-    header {
-        padding: 10px;
-        overflow: auto;
+// The Header
+header {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #5d9eff;
+    color: white;
+    width: auto;
+
+    #title-area {
+        display: inline-block;
+        width: 70%;
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        img {
+            width: 50px;
+        }
+        h3 {
+            margin: 0;
+            font-family: sans-serif;
+            font-size: 30px;
+            display: inline-block;
+        }
+        p {
+            margin: 0;
+            font-size: 18px;
+        }
+    }
+    #mainTabs {
+        display: inline-block;
         ul {
-            h3 {
-                a {
-                    font-size: 2rem;
-                    position: relative;
-                    top: -40px;
-                    color: white;
-                    text-decoration: none;
-                }
-            }
+            margin: 0;
+            padding: 0;
             li {
                 list-style-type: none;
                 display: inline-block;
-            }
-            #mainTabs {
-                display: inline-block;
-                position: relative;
-                top: -25px;
-                margin: auto;
-                li {
-                    text-align: center;
-                    img {
-                        border-radius: 10px;
-                        width: 50px;
-                        opacity: 0.8;
-                        margin: 0;
-                        &:hover {
-                            cursor: pointer;
-                            box-shadow: 1px 1px 5px greenyellow;
-                        }
-                    }
-                    .active {
-                        box-shadow: 2px 2px 5px greenyellow;
-                        cursor: text !important;
-                    }
-                    figcaption {
-                        font-size: 10px;
+                margin: 0 20px 0 0;
+                a {
+                    color: white;
+                    text-decoration: none;
+                    padding: 0 0 5px 0;
+                    &:hover {
+                        border-bottom: 2px solid white;
                     }
                 }
-            }
-            #links {
-                display: inline-block;
-                position: relative;
-                top: 10px;
-                right: 10px;
-                float: right;
-                li {
-                    a {
-                        img {
-                            width: 30px;
-                            border-radius: 100%;
-                            &:hover {
-                                box-shadow: 1px 1px 10px white;
-                            }
-                        }
-                    }
+                &:nth-child(2) {
+                    background: #255091;
+                    padding: 10px;
+                    border-radius: 5px;
                 }
             }
         }
     }
-
-/** End of Header ***********************************************/
+    #skills {
+        width: auto;
+        text-align: center;
+        h2 {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    header {
+        text-align: center;
+        #title-area {
+            margin-bottom: 40px;
+        }
+    }
+}
+// End of header
 
 /** Beginning of the content contact area **************/
 #contactContainer {
@@ -114,5 +119,5 @@ body {
         margin-top: 30px;
         opacity: 0.4;
         text-align: center;
+        color: grey;
     }
-}
