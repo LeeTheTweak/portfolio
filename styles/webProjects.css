@@ -45,7 +45,7 @@ header {
           padding: 0 0 5px 0; }
           header #mainTabs ul li a:hover {
             border-bottom: 2px solid white; }
-        header #mainTabs ul li:nth-child(2) {
+        header #mainTabs ul li:nth-child(3) {
           background: #255091;
           padding: 10px;
           border-radius: 5px; }
