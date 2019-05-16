@@ -1,12 +1,14 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
   width: 100%;
   margin: 0 auto;
   padding: 0;
   background: #ffffff;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+}
 
 /** The main site container */
 header {
@@ -14,107 +16,135 @@ header {
   overflow: auto;
   background: #5d9eff;
   color: white;
-  width: auto; }
-  header #title-area {
-    display: inline-block;
-    width: 70%; }
-    header #title-area img {
-      width: 50px; }
-    header #title-area h3 {
-      margin: 0;
-      font-family: sans-serif;
-      font-size: 30px;
-      display: inline-block; }
-    header #title-area p {
-      margin: 0;
-      font-size: 18px; }
-  header #mainTabs {
-    display: inline-block; }
-    header #mainTabs ul {
-      margin: 0;
-      padding: 0; }
-      header #mainTabs ul li {
-        list-style-type: none;
-        display: inline-block;
-        margin: 0 20px 0 0; }
-        header #mainTabs ul li a {
-          color: white;
-          text-decoration: none;
-          padding: 0 0 5px 0; }
-          header #mainTabs ul li a:hover {
-            border-bottom: 2px solid white; }
-        header #mainTabs ul li:nth-child(3) {
-          background: #255091;
-          padding: 10px;
-          border-radius: 5px; }
-  header #skills {
-    width: auto;
-    text-align: center; }
-    header #skills h2 {
-      font-size: 20px;
-      line-height: 1.5; }
+  width: auto;
+}
+header #title-area {
+  display: inline-block;
+  width: 70%;
+}
+header #title-area img {
+  width: 50px;
+}
+header #title-area h3 {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 30px;
+  display: inline-block;
+}
+header #title-area p {
+  margin: 0;
+  font-size: 18px;
+}
+header #mainTabs {
+  display: inline-block;
+}
+header #mainTabs ul {
+  margin: 0;
+  padding: 0;
+}
+header #mainTabs ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+header #mainTabs ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0 0 5px 0;
+}
+header #mainTabs ul li a:hover {
+  border-bottom: 2px solid white;
+}
+header #mainTabs ul li:nth-child(3) {
+  background: #255091;
+  padding: 10px;
+  border-radius: 5px;
+}
+header #skills {
+  width: auto;
+  text-align: center;
+}
+header #skills h2 {
+  font-size: 20px;
+  line-height: 1.5;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   header {
-    text-align: center; }
-    header #title-area {
-      margin-bottom: 40px; } }
+    text-align: center;
+  }
+  header #title-area {
+    margin-bottom: 40px;
+  }
+}
 #contents {
   padding: 10px;
   width: 100%;
-  margin: 50px 0 0 0;
-  overflow: auto; }
-  #contents #greetings {
-    width: auto;
-    float: left;
-    margin-right: 5%;
-    margin-left: 25%; }
-    #contents #greetings h1 {
-      font-size: 8vw;
-      margin-bottom: 0;
-      margin-left: -80px; }
-    #contents #greetings p {
-      margin-top: 0; }
-      #contents #greetings p span {
-        color: #dfbd29; }
-    #contents #greetings img {
-      width: 20px;
-      display: inline-block; }
-
-#profileImage img {
-  width: 150px; }
+  margin: 30px 0 0 0;
+  overflow: auto;
+}
+#contents #greetings {
+  width: auto;
+  float: left;
+  margin-right: 5%;
+  margin-left: 25%;
+}
+#contents #greetings h1 {
+  font-size: 8vw;
+  margin-bottom: 0;
+  margin-left: -80px;
+}
+#contents #greetings p {
+  margin-top: 0;
+}
+#contents #greetings p span {
+  color: #dfbd29;
+}
+#contents #greetings img {
+  width: 20px;
+  display: inline-block;
+}
 
 #greetings2 {
   width: 200px;
   float: right;
   margin-right: 28%;
-  margin-top: 15%; }
-  #greetings2 h1 {
-    font-size: 8vw;
-    margin-bottom: 0; }
-  #greetings2 p {
-    margin-top: 0; }
-    #greetings2 p span {
-      color: #dfbd29; }
-  #greetings2 img {
-    width: 20px;
-    display: inline-block;
-    margin-top: 0; }
+  margin-top: 15%;
+}
+#greetings2 h1 {
+  font-size: 8vw;
+  margin-bottom: 0;
+}
+#greetings2 p {
+  margin-top: 0;
+}
+#greetings2 p span {
+  color: #dfbd29;
+}
+#greetings2 img {
+  width: 20px;
+  display: inline-block;
+  margin-top: 0;
+}
 
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  margin: 0;
+  margin: 30px 0 0 0s;
   padding: 10px;
   opacity: 0.4;
-  text-align: center; }
-  footer p {
-    margin: 0;
-    font-size: 2vw; }
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  font-size: 2vw;
+}
 
 @media only screen and (max-width: 425px) {
   footer p {
-    display: none; } }
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
