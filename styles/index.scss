@@ -83,73 +83,59 @@ body {
     }
 // End of header
 
-    #contents {
-       padding: 10px;
-       width: 100%;
-       margin: 30px 0 0 0;
-       overflow: auto;
-
-       #greetings {
-           width: auto;
-           float: left;
-           margin-right: 5%;
-           margin-left: 25%;
-            h1 {
-                font-size: 8vw;
-                margin-bottom: 0;
-                margin-left: -80px;
-            }
-            p {
-                margin-top: 0;
-                span {
-                    color: $gold;
-                }
-            }
-            img {
-                width: 20px;
-                display: inline-block;
-            }
-        }  
-    }
-
-        #greetings2 {
-            width: 200px;
-            float: right;
-            margin-right: 28%;
-            margin-top: 15%;
-            h1 {
-                font-size: 8vw;
-                margin-bottom: 0;
-            }
-            p {
-                margin-top: 0;
-                span {
-                    color: $gold;
-                }
-            }
-            img {
-                width: 20px;
-                display: inline-block;
-                margin-top: 0;
-            }
+#contents {
+    width: auto;
+    text-align: center;
+    #introduction-area {
+        padding: 0 10px;
+        width: auto;
+        margin: auto;
+        h1 {
+            font-size: 50px;
+            font-family: sans-serif;
+            margin-bottom: 0;
         }
-    footer {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        margin: 30px 0 0 0s;
-        padding: 10px;
-        opacity: 0.4;
-        text-align: center;
         p {
-            margin: 0;
-            font-size: 2vw;
+            margin-top: 5px;
+            font-size: 30px;
         }
-    } 
-    @media only screen and (max-width: 425px) {
-        footer {
-            p {
-                display: none;
+        img {
+            width: 300px;
+        }
+    }
+    #bio-area {
+        background-color: #a14dc2;
+        color: white;
+        margin: 0;
+        padding: 30px 0;
+        h2 {
+            margin: 0;
+            font-family: sans-serif;
+            font-size: 50px;
+        }
+        p {
+            width: auto;
+            padding: 0 20px;
+            margin: auto;
+            font-size: 20px;
+            line-height: 1.5;
+        }
+    }
+    #skills-area {
+        width: auto;
+        margin: auto;
+        h2 {
+            font-size: 50px;
+        }
+        ul {
+            padding: 0;
+            li {
+                list-style-type: none;
+                display: inline-block;
+                img {
+                    width: 150px;
+                }
             }
         }
     }
+}
