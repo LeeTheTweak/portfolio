@@ -138,4 +138,26 @@ body {
             }
         }
     }
+        #education-area {
+            background-color: #c5c1c1;
+            color: white;
+            padding: 20px;
+            h2 {
+                font-size: 60px;
+            }
+        #SSC-logo-area {
+            width: auto;
+            display: inline-block;
+            img {
+                width: 250px;
+            }
+        }
+        #schooling-description {
+            width: auto;
+            p {
+                font-size: 30px;
+                margin: 0;
+            }
+        }
+    }
 }

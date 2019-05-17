@@ -133,5 +133,27 @@ header #skills h2 {
 #contents #skills-area ul li img {
   width: 150px;
 }
+#contents #education-area {
+  background-color: #c5c1c1;
+  color: white;
+  padding: 20px;
+}
+#contents #education-area h2 {
+  font-size: 60px;
+}
+#contents #education-area #SSC-logo-area {
+  width: auto;
+  display: inline-block;
+}
+#contents #education-area #SSC-logo-area img {
+  width: 250px;
+}
+#contents #education-area #schooling-description {
+  width: auto;
+}
+#contents #education-area #schooling-description p {
+  font-size: 30px;
+  margin: 0;
+}
 
 /*# sourceMappingURL=index.css.map */
